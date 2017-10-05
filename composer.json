@@ -1,7 +1,6 @@
 {
     "name": "phurcate/module",
     "description": "Module installer for plugin development.", 
-    "version": "1.0.0", 
     "type": "composer-plugin",
     "license": "MIT",
     "authors": [
