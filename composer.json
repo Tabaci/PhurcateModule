@@ -2,7 +2,7 @@
     "name": "phurcate/module",
     "description": "Module installer for plugin development.",
     "type": "composer-plugin",
-    "license": "UNLICENSED",
+    "license": "MIT",
     "authors": [
         {
             "name": "Alexander Hållenius",
