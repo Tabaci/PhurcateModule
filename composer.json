@@ -1,0 +1,26 @@
+{
+    "name": "phurcate/module",
+    "description": "Module installer for plugin development.",
+    "type": "composer-plugin",
+    "license": "UNLICENSED",
+    "authors": [
+        {
+            "name": "Alexander Hållenius",
+            "email": "alexander@xn--junivrs-e1a.com"
+        }
+    ], 
+    "autoload": {
+        "psr-4": {
+            "Phurcate\\Module\\": "/"
+        }
+    }, 
+    "extra": {
+        "class": "Phurcate\\Module\\ModulePlugin"
+    }, 
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "^1.3"
+    }
+}
